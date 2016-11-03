@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    tools:context="com.andromap33.mcms.AddNewEntry"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="20dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<EditText
+        android:id="@+id/diet_taken"
+        android:textColorHint="#bc00fa"
+        android:textColor="#bc00fa"
+        android:hint="Diet taken by resident"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColorHint="#bc00fa"
+        android:textColor="#bc00fa"
+        android:id="@+id/diet_price"
+        android:hint="Price"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="ADD ENTRY"
+        android:onClick="add_new_entry"
+        android:background="#d11414"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+</ScrollView>

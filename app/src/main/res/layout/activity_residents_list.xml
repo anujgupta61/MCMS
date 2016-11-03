@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    tools:context="com.andromap33.mcms.ResidentsList"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+		android:background="#3F51B5"
+    	android:orientation="horizontal"
+        android:weightSum="1"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+
+    	<TextView
+            android:paddingStart="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+    		android:text="BLOCK NO .  "
+            android:layout_weight="0.25"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" />
+
+    	<Button
+            android:layout_weight="0.15"
+            android:layout_marginStart="10dp"
+            android:background="#3F51B5"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+    		android:onClick="show_list"
+    		android:id="@+id/block1"
+    		android:layout_width="50dp"
+    		android:layout_height="wrap_content" />
+
+    	<Button
+            android:layout_weight="0.15"
+            android:background="#3F51B5"
+            android:text="2"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+    		android:onClick="show_list"
+    		android:id="@+id/block2"
+    		android:layout_width="50dp"
+    		android:layout_height="wrap_content" />
+
+    	<Button
+            android:layout_weight="0.15"
+            android:background="#3F51B5"
+    		android:text="3"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+    		android:onClick="show_list"
+    		android:id="@+id/block3"
+    		android:layout_width="50dp"
+    		android:layout_height="wrap_content" />
+
+    	<Button
+            android:background="#3F51B5"
+    		android:text="4"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+    		android:onClick="show_list"
+    		android:id="@+id/block4"
+    		android:layout_width="50dp"
+    		android:layout_height="wrap_content" />
+
+    	<Button
+            android:layout_weight="0.15"
+            android:background="#3F51B5"
+    		android:text="5"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+    		android:onClick="show_list"
+    		android:id="@+id/block5"
+    		android:layout_width="50dp"
+    		android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#d11414"
+        android:weightSum="1"
+ 	    android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+
+		<TextView
+			android:id="@+id/block_no"
+            android:layout_weight="0.35"
+    		android:text="BLOCK  :  1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" />
+
+    	<EditText
+            android:id="@+id/search_roomNo"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="0.25"
+    		android:hint="Room"
+            android:textColorHint="#FFFFFF"
+    		android:layout_width="50dp"
+    		android:layout_height="wrap_content" />
+    	
+    	<Button
+            android:onClick="search_resident"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="0.15"
+    		android:text="SEARCH"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:background="#d11414"
+    		android:layout_width="50dp"
+    		android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginEnd="10dp"
+            android:onClick="add_new_resident"
+            android:background="#d11414"
+            android:layout_weight="0.25"
+            android:textSize="15sp"
+            android:text="ADD NEW"
+            android:textColor="#FFFFFF"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_resident"
+    	android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

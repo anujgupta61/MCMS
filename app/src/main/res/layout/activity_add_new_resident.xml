@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    tools:context="com.andromap33.mcms.AddNewResident"    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="20dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<EditText
+        android:id="@+id/name"
+        android:textColorHint="#bc00fa"
+        android:textColor="#bc00fa"
+        android:hint="Name of Resident"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColorHint="#bc00fa"
+        android:textColor="#bc00fa"
+        android:id="@+id/block_no"
+        android:hint="Block no."
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColorHint="#bc00fa"
+        android:textColor="#bc00fa"
+        android:id="@+id/room_no"
+        android:hint="Room no."
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColorHint="#bc00fa"
+        android:textColor="#bc00fa"
+        android:id="@+id/section"
+        android:hint="A/B"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColorHint="#bc00fa"
+        android:textColor="#bc00fa"
+        android:id="@+id/roll_no"
+        android:hint="Hostel Roll no."
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColorHint="#bc00fa"
+        android:textColor="#bc00fa"
+        android:id="@+id/mob_no"
+        android:hint="Mobile no."
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="ADD"
+        android:onClick="add_resident"
+        android:background="#d11414"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MCMS</string>
+    <string name="intro_text">Welcome ... Either you can read all instructions by clicking the next button or you can skip to Home Page by clicking the skip button .</string>
+    <string name="title_activity_main">Home Page</string>
+    <string name="intro_head">Mess and Canteen Management System</string>
+    <string name="skip_button">SKIP</string>
+    <string name="next_button">NEXT</string>
+    <string name="residents_list">List of Residents</string>
+    <string name="view_orders">View Orders</string>
+    <string name="today_menu">Add Today\'s Menu</string>
+    <string name="rate_us">Rate Us</string>
+</resources>

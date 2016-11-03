@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    tools:context="com.andromap33.mcms.MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#3F51B5"
+        android:layout_margin="50dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/today_menu_text"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:paddingBottom="10dp"
+        android:paddingStart="10dp"
+        android:id="@+id/price_text"
+        android:textColor="#FFFFFF"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+	<Button
+        android:padding="10dp"
+        android:onClick="list_residents"
+	    android:background="#d11414"
+	    android:textColor="#FFFFFF"
+	    android:layout_margin="20dp"
+	    android:text="@string/residents_list"
+	    android:layout_width="150dp"
+	    android:layout_height="100dp" />
+
+	<Button
+        android:padding="10dp"
+	    android:onClick="view_orders"
+	    android:background="#d11414"
+	    android:textColor="#FFFFFF"
+	    android:layout_margin="20dp"
+	    android:text="@string/view_orders"
+	    android:layout_width="150dp"
+	    android:layout_height="100dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:padding="10dp"
+        android:onClick="add_today_menu"
+	    android:background="#d11414"
+	    android:textColor="#FFFFFF"
+	    android:layout_margin="20dp"
+	    android:text="@string/today_menu"
+	    android:layout_width="150dp"
+	    android:layout_height="100dp" />
+
+	<Button
+        android:padding="10dp"
+        android:onClick="rate_us"
+	    android:background="#d11414"
+	    android:textColor="#FFFFFF"
+	    android:layout_margin="20dp"
+	    android:text="@string/rate_us"
+	    android:layout_width="150dp"
+	    android:layout_height="100dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

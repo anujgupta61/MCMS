@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    tools:context="com.andromap33.mcms.ResidentDetailedActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+		android:background="#3F51B5"
+    	android:orientation="horizontal"
+        android:weightSum="1"
+        android:gravity="center"
+    	android:layout_width="match_parent"
+    	android:layout_height="45dp" >
+
+        <TextView
+            android:id="@+id/detailed_text_view"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="ADD"
+            android:onClick="add_entry"
+            android:background="#3F51B5"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:background="#d11414"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/total_bill_textview"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_entries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
