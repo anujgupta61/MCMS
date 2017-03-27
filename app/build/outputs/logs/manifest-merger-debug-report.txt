@@ -17,10 +17,10 @@ application
 ADDED from /home/anuj/AndroidStudioProjects/MCMS/app/src/main/AndroidManifest.xml:5:5-92:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha3] /home/anuj/AndroidStudioProjects/MCMS/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha3/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:23.4.0] /home/anuj/AndroidStudioProjects/MCMS/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /home/anuj/AndroidStudioProjects/MCMS/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.4.0] /home/anuj/AndroidStudioProjects/MCMS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/anuj/AndroidStudioProjects/MCMS/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/anuj/AndroidStudioProjects/MCMS/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/anuj/AndroidStudioProjects/MCMS/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /home/anuj/AndroidStudioProjects/MCMS/app/src/main/AndroidManifest.xml:8:9-41
 	android:supportsRtl
@@ -140,10 +140,10 @@ INJECTED from /home/anuj/AndroidStudioProjects/MCMS/app/src/main/AndroidManifest
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha3] /home/anuj/AndroidStudioProjects/MCMS/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha3/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:23.4.0] /home/anuj/AndroidStudioProjects/MCMS/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:23.4.0] /home/anuj/AndroidStudioProjects/MCMS/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /home/anuj/AndroidStudioProjects/MCMS/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:23.4.0] /home/anuj/AndroidStudioProjects/MCMS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/anuj/AndroidStudioProjects/MCMS/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/anuj/AndroidStudioProjects/MCMS/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/anuj/AndroidStudioProjects/MCMS/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:23.4.0] /home/anuj/AndroidStudioProjects/MCMS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion

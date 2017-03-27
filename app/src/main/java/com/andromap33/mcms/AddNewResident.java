@@ -37,6 +37,7 @@ public class AddNewResident extends AppCompatActivity {
         } else {
             ResidentDbHelper resDbHelper = new ResidentDbHelper(getApplicationContext());
             SQLiteDatabase mydb = resDbHelper.getWritableDatabase();
+
             // Creating a new map
             ContentValues values = new ContentValues();
             values.put(ResidentDBContract.ResidentEntry1.COLUMN_NAME_NAME, eName);
